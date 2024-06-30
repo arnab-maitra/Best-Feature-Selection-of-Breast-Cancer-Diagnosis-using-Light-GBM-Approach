@@ -30,16 +30,28 @@ A novel approach in breast cancer detection has been introduced utilizing the Li
 
 Notably, the Light Gradient Boost machine learning technique molds the decision tree classifier into a unique weak learner structure, characterized by a vertical orientation. This innovative design, termed the "Leaf-wise Decision Tree Algorithm," showcases its distinctiveness in minimizing training loss compared to alternative algorithms. Through these advancements, the Light Gradient Boost technique demonstrates its potential to significantly improve breast cancer detection accuracy, thus offering promising avenues for enhanced medical diagnostics.
 
-## Proposed Algorithm
+## Steps of Execution
 
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-from matplotlib.pyplot import figure
-import seaborn as sns
-import lightgbm as lgb
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score
+ 1. Importing Required Libraries: Importing essential libraries: NumPy for numerical
+ operations, pandas for data manipulation, Matplotlib and Seaborn for data visualization,
+ and Light GBM for machine learning.
+ 2. Loading the Data: The dataset is loaded from a CSV file named 'data.csv' into a
+ pandas DataFrame called data.
+ 3. Inspecting the Data:
+ ● Display the first few rows (head), last few rows (tail), total number of elements
+ (size), and the shape of the DataFrame (shape).
+ ● The column names are extracted and printed.
+ ● The data types of each column are inspected.
+ 4. Separating Target Variable: Target Variable: The target variable y is extracted from the
+ diagnosis column, indicating if the diagnosis is Malignant (M) or Benign (B).
+ 5. Preparing Feature Variables: Columns Unnamed: 32, id, and diagnosis are dropped
+ from the dataset, and the remaining columns are stored in x.
+ 6. Visualizing the Class Labels:
+ ● Acountplot is created to visualize the distribution of the diagnosis classes.
+ ● Thecounts of each class (Benign and Malignant) are printed.
+ 7. Plotting of Correlation Heatmap: A heatmap showing the correlation matrix of the
+ features in x is plotted
+
 
 
 ## Dataset
