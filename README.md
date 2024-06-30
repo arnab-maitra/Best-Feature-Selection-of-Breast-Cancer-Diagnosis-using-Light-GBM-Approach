@@ -92,22 +92,22 @@ Accuracy: 0.9707602339181286
 
 ```
 
- ## Results
+ ## Discussion
+
+In our dataset preprocessing on Google Colab, we began by importing a Kaggle dataset using Pandas. Initially, it had 569 rows and 33 columns, but after a careful feature selection process, we retained only 8 key features to streamline analysis and enhance model efficiency.
+
+We addressed missing or inconsistent data using Pandas functions, applying imputation techniques or removing entries as necessary. Numerical features were normalized through Min-Max scaling or Z-score normalization to ensure comparability. Categorical variables were encoded using one-hot encoding for compatibility with machine learning models.
+
+Swarm plots were utilized to visualize feature patterns and identify outliers, which were subsequently removed. We then split the preprocessed data into training and testing sets.
+
+ ## Future Work
 
 
 ## Conclusion
 
 
-## Future Work
 
 
 
-![Screenshot 2024-02-22 001758](https://github.com/arnab-maitra/Keylogger/assets/88264132/1cca1f6d-d64b-4fe9-9b99-736107506358)
-<b><p align="center">Entered sample text in the terminal while the keylogger is active.</p></b>
 
-<br></br>
 
-![Screenshot 2024-02-22 001820](https://github.com/arnab-maitra/Keylogger/assets/88264132/807205c1-a643-4f3e-bad0-888a4643f2a8)
-![Screenshot 2024-02-22 001843](https://github.com/arnab-maitra/Keylogger/assets/88264132/a179ea84-f5e6-4fd7-831f-57cc4209a13f)
-![Screenshot 2024-02-22 001900](https://github.com/arnab-maitra/Keylogger/assets/88264132/4c009ea2-d950-499d-8bbf-b3335fc35f78)
-<b><p align="center">Keystrokes recorded by the keylogger program and captured input stored in the log file (keylog.txt).</p></b>
