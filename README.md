@@ -81,7 +81,11 @@ The data is split into training and testing sets, with 30% of the data reserved 
 
 Feature selection was applied to the initial dataset, which originally comprised 33 features. Following the feature selection process and data cleaning, the refined dataset has been reduced to 8 features.
 
-## Results
+<p align="center">
+  <img src="https://github.com/arnab-maitra/Best-Feature-Selection-of-Breast-Cancer-Diagnosis-using-Light-GBM-Approach/assets/88264132/80184978-34f4-4ef1-a48c-2d4a0680622a" alt="Refined Dataset after Removal of Outliers" />
+  <br><b>Refined Dataset after Removal of Outliers.</b>
+
+ ## Results
 
 
 ## Conclusion
