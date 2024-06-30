@@ -1,6 +1,7 @@
 # Best Feature Selection of Breast Cancer Diagnosis using Light Gradient Boost (LGBoost) Approach
 
 ### Under the guidance of MRS. VEDATRAYEE CHATTERJEE for the partial fulfillment of degree of Bachelor of Technology.
+### ASANSOL ENGINEERING COLLEGE
 ### June 2024
 
 ## Abstract
