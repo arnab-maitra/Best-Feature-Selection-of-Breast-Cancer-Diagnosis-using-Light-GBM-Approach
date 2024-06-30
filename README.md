@@ -100,14 +100,22 @@ We addressed missing or inconsistent data using Pandas functions, applying imput
 
 Swarm plots were utilized to visualize feature patterns and identify outliers, which were subsequently removed. We then split the preprocessed data into training and testing sets.
 
+We trained the data using the Light GBM algorithm to classify breast cancer cases as benign or malignant. Our preprocessing and model training pipeline resulted in an impressive model accuracy of 97.07%, highlighting the effectiveness of our approach in achieving reliable breast cancer diagnosis.
+
  ## Future Work
 
+We have achieved the highest possible accuracy of 97.07% in diagnosing breast cancer using the Light GBM algorithm. Consequently, there are currently no further improvements or future work planned for this project.
 
 ## Conclusion
 
+The results of our study reveal that the Light GBM algorithm proves to be highly efficient and straightforward to implement when working with a diagnostic dataset. After removing the outliers, we found that 8 features remained, significantly contributing to the overall accuracy of the model. Light GBM achieved the accuracy of 97.07%. Hopefully, this will aid individuals in receiving early breast cancer treatment and proactively manage their lives.
 
 
+## Contributors to this Project
 
-
+1. Arnab Maitra
+2. Subhadeep Puitandi
+3. Ankita Mukherjee
+4. Arijita Roy
 
 
