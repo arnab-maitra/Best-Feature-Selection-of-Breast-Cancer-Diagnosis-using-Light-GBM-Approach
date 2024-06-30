@@ -85,6 +85,8 @@ Feature selection was applied to the initial dataset, which originally comprised
   <img src="https://github.com/arnab-maitra/Best-Feature-Selection-of-Breast-Cancer-Diagnosis-using-Light-GBM-Approach/assets/88264132/80184978-34f4-4ef1-a48c-2d4a0680622a" alt="Refined Dataset after Removal of Outliers" />
   <br><b>Refined Dataset after Removal of Outliers.</b>
 
+After completing the preprocessing steps and model training, the model achieved an accuracy of 97.07%.
+
  ## Results
 
 
