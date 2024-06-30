@@ -87,6 +87,11 @@ Feature selection was applied to the initial dataset, which originally comprised
 
 After completing the preprocessing steps and model training, the model achieved an accuracy of 97.07%.
 
+```
+Accuracy: 0.9707602339181286
+
+```
+
  ## Results
 
 
