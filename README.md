@@ -52,8 +52,7 @@ Notably, the Light Gradient Boost machine learning technique molds the decision 
     resulting in a new DataFrame x_1.
  9. Correlation Heatmap for Reduced Features: A heatmap for the reduced feature set x_1 is plotted.
  10. Splitting the Data:
- - Train-Test Split: The data is split into training and testing sets, with 30% of the data reserved for testing. The random_state ensures 
-   reproducibility.
+ - Train-Test Split: The data is split into training and testing sets, with 30% of the data reserved for testing. The random_state ensures reproducibility.
  11. Initializing and Training the Model:
  - Model Initialization: A Light GBM classifier is initialized.
  - Model Training: The model is trained on the training data (x_train and y_train).
@@ -76,6 +75,7 @@ Once the dataset (from Kaggle’s repository) is imported using the Panda’s li
   <img src="https://github.com/arnab-maitra/Best-Feature-Selection-of-Breast-Cancer-Diagnosis-using-Light-GBM-Approach/assets/88264132/8f59607f-df26-4206-9868-a0885b1bf7ea" alt="Swarm plot graphs were plotted" />
   <br><b>Swarm plot graphs were plotted.</b>
 
+The data is split into training and testing sets, with 30% of the data reserved for testing (and 70% for training), ensuring reproducibility by using a specified random_state. Following the split, a LightGBM classifier is initialized. The model is then trained on the training dataset, which includes both the feature set (x_train) and the corresponding labels (y_train). Once the model is trained, it is used to predict the class labels for the test dataset (x_test). To evaluate the model's performance, the accuracy is calculated by comparing the predicted labels (y_pred) to the true labels (y_test), and the resulting accuracy is printed to provide a measure of the model's predictive performance.
 
 ## Methodology
 
