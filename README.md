@@ -47,17 +47,6 @@ The project demonstrates that the LightGBM algorithm is an effective tool for br
 
 Future work involves exploring other machine learning techniques and larger datasets to further improve the model's accuracy and robustness.
 
-## Acknowledgements
-
-We express our profound gratitude to our thesis supervisor, Mrs. Vedatrayee Chatterjee, and the Head of the Department of Computer Science and Engineering, Dr. Monish Chatterjee, for their guidance and support. We also thank all the teachers of the department and Mr. Suman Mallick for their valuable suggestions and technical assistance.
-
-## Authors
-
-- Arnab Maitra
-- Subhadeep Puitandi
-- Ankita Mukherjee
-- Arijita Roy
-
 ![Screenshot 2024-02-22 001758](https://github.com/arnab-maitra/Keylogger/assets/88264132/1cca1f6d-d64b-4fe9-9b99-736107506358)
 <b><p align="center">Entered sample text in the terminal while the keylogger is active.</p></b>
 
