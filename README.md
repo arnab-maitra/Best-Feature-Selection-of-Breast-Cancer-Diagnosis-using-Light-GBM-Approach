@@ -68,7 +68,9 @@ The project aims to discern the disparities between benign and malignant breast 
 
 <p align="center">
   <img src="https://github.com/arnab-maitra/Best-Feature-Selection-of-Breast-Cancer-Diagnosis-using-Light-GBM-Approach/assets/88264132/ef5ce34e-8c55-4ebf-b0d8-7234b539aa75" alt="Flowchart of LightGBM Algorithm" />
-  <br><b>Original Dataset collected from Kaggle Repository (in the form of a Heatmap).</b>
+  <br><b>Original Dataset collected from Kaggle Repository (generated in the form of a Heatmap).</b>
+
+Once the dataset (from Kaggle’s repository) is imported using the Panda’s library, it becomes crucial to check for the presence of any missing values. The data cleaning process involves eliminating entire rows that contain any missing values. This step ensures that subsequent tasks, such as visualization, can be carried out effectively with high accuracy. Heat maps are then employed to identify and remove outliers.
 
 ## Methodology
 
