@@ -32,7 +32,14 @@ Notably, the Light Gradient Boost machine learning technique molds the decision 
 
 ## Proposed Algorithm
 
-![carbon](https://github.com/arnab-maitra/Best-Feature-Selection-of-Breast-Cancer-Diagnosis-using-Light-GBM-Approach/assets/88264132/a1be7bf6-1e6d-4f82-9c22-be03f5774d2f)
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from matplotlib.pyplot import figure
+import seaborn as sns
+import lightgbm as lgb
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
 
 
 ## Dataset
