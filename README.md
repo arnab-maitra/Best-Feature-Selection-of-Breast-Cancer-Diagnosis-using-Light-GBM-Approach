@@ -77,8 +77,9 @@ Once the dataset (from Kaggle’s repository) is imported using the Panda’s li
 
 The data is split into training and testing sets, with 30% of the data reserved for testing (and 70% for training), ensuring reproducibility by using a specified random_state. Following the split, a LightGBM classifier is initialized. The model is then trained on the training dataset, which includes both the feature set (x_train) and the corresponding labels (y_train). Once the model is trained, it is used to predict the class labels for the test dataset (x_test). To evaluate the model's performance, the accuracy is calculated by comparing the predicted labels (y_pred) to the true labels (y_test), and the resulting accuracy is printed to provide a measure of the model's predictive performance.
 
-## Methodology
+## Simulation Results
 
+Feature selection was applied to the initial dataset, which originally comprised 33 features. Following the feature selection process and data cleaning, the refined dataset has been reduced to 8 features.
 
 ## Results
 
