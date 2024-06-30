@@ -1,9 +1,3 @@
-# Best Feature Selection of Breast Cancer Diagnosis using Light GBM Approach
-
-To write a comprehensive README file for your GitHub repository, you can use the following structure based on the provided thesis document:
-
----
-
 # Best Feature Selection of Breast Cancer Diagnosis using Light Gradient Boost (LGBoost) Approach
 
 ## Introduction
