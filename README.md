@@ -38,9 +38,9 @@ Notably, the Light Gradient Boost machine learning technique molds the decision 
  2. Loading the Data: The dataset is loaded from a CSV file named 'data.csv' into a
  pandas DataFrame called data.
  3. Inspecting the Data:
- ● Display the first few rows (head), last few rows (tail), total number of elements
+ - Display the first few rows (head), last few rows (tail), total number of elements
  (size), and the shape of the DataFrame (shape).
- ● The column names are extracted and printed.
+ - The column names are extracted and printed.
  ● The data types of each column are inspected.
  4. Separating Target Variable: Target Variable: The target variable y is extracted from the
  diagnosis column, indicating if the diagnosis is Malignant (M) or Benign (B).
@@ -50,7 +50,23 @@ Notably, the Light Gradient Boost machine learning technique molds the decision 
  ● Acountplot is created to visualize the distribution of the diagnosis classes.
  ● Thecounts of each class (Benign and Malignant) are printed.
  7. Plotting of Correlation Heatmap: A heatmap showing the correlation matrix of the
- features in x is plotted
+ features in x is plotted.
+8. Dropping Highly Correlated Features: Highly correlated features are identified and
+ dropped from the dataset to reduce redundancy, resulting in a new DataFrame x_1.
+ 9. Correlation Heatmap for Reduced Features: A heatmap for the reduced feature set x_1
+ is plotted.
+ 10. Splitting the Data:
+ ● Train-Test Split: The data is split into training and testing sets, with 30% of the
+ data reserved for testing. The random_state ensures reproducibility.
+ 11. Initializing and Training the Model:
+ ● ModelInitialization: A Light GBM classifier is initialized.
+ ● ModelTraining: The model is trained on the training data (x_train and y_train).
+ 12. Making Predictions: The trained model is used to predict the class labels for the test
+ set (x_test).
+ 13. Evaluating the Model:
+ ● Accuracy Calculation: The accuracy of the model is calculated by comparing the
+ predicted labels (y_pred) with the true labels (y_test).
+ ● Output Accuracy: The accuracy is printed.
 
 
 
