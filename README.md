@@ -18,7 +18,7 @@ Our project aims to address challenges and propose solutions to enhance accuracy
 
 Currently, India reports approximately 178,000 cases of breast cancer. However, manually determining cancer in these cases is an arduous and time-consuming process, often leading to delays and the possibility of human errors. To address this issue, we aim to develop a predictive model that can efficiently classify breast tumors as either malignant or benign using Machine Learning techniques. Our approach involves analyzing the correlation between various features, eliminating redundant data, and ultimately creating a highly accurate model. By leveraging these advanced technologies, we strive to enhance the early detection and diagnosis of breast cancer, which can significantly improve patient outcomes.
 
-## Proposed Mode / Approach
+## Proposed Model / Approach
 
 The approach proposed is Light Gradient Boosting (Light GBM Approach).
  
