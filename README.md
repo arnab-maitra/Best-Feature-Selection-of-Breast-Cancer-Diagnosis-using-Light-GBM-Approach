@@ -28,6 +28,8 @@ A novel approach in breast cancer detection has been introduced utilizing the Li
   <img src="https://github.com/arnab-maitra/Best-Feature-Selection-of-Breast-Cancer-Diagnosis-using-Light-GBM-Approach/assets/88264132/b043d9ca-c763-4a6a-bf97-865059d6a99f" alt="Flowchart of LightGBM Algorithm" />
   <br><b>Flowchart of LightGBM Algorithm.</b>
 
+Notably, the Light Gradient Boost machine learning technique molds the decision tree classifier into a unique weak learner structure, characterized by a vertical orientation. This innovative design, termed the "Leaf-wise Decision Tree Algorithm," showcases its distinctiveness in minimizing training loss compared to alternative algorithms. Through these advancements, the Light Gradient Boost technique demonstrates its potential to significantly improve breast cancer detection accuracy, thus offering promising avenues for enhanced medical diagnostics.
+
 ## Dataset
 
 
