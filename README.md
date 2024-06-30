@@ -1,43 +1,68 @@
 # Best Feature Selection of Breast Cancer Diagnosis using Light GBM Approach
 
-2. **Parental Control:** Keyloggers can be utilized by parents to monitor their children's online activities, ensuring their safety and responsible internet usage.
+To write a comprehensive README file for your GitHub repository, you can use the following structure based on the provided thesis document:
 
-3. **System Administration:** System administrators might employ keyloggers for troubleshooting or monitoring purposes, aiding in the detection of unauthorized access or unusual behavior.
+---
 
-However, in the hands of malicious actors, keyloggers can present severe security threats. Cybercriminals may leverage keyloggers for:
+# Best Feature Selection of Breast Cancer Diagnosis using Light Gradient Boost (LGBoost) Approach
 
-1. **Credential Theft:** Illegitimate capture of login credentials for various accounts (e.g., email, social media, banking) by logging keystrokes.
+## Introduction
 
-2. **Espionage:** Spying on individuals, companies, or government entities to gather sensitive information.
+This repository contains the implementation of our thesis project titled **"Best Feature Selection of Breast Cancer Diagnosis using Light Gradient Boost (LGBoost) Approach"**. The primary objective of this project is to develop a machine learning model that can accurately classify breast cancer tumors as benign or malignant using the Light Gradient Boosting Machine (LightGBM) algorithm. This project is carried out under the supervision of Mrs. Vedatrayee Chatterjee, Assistant Professor at Asansol Engineering College, and is part of the requirements for the degree of Bachelor of Technology in Computer Science and Engineering.
 
-3. **Identity Theft:** Illicit collection of personal information, such as credit card details or social security numbers, for fraudulent activities.
+## Motivation
 
-4. **Surveillance:** Covert monitoring and recording of user activities without their knowledge for malicious purposes.
+Breast cancer is a life-threatening disease affecting millions of individuals worldwide. Early and accurate diagnosis is crucial for effective treatment and improved patient outcomes. This project aims to leverage machine learning techniques to enhance the accuracy and efficiency of breast cancer diagnosis.
 
-## Concept
+## Project Description
 
-The keylogger works by creating an instance of a Listener from the pynput library. The listener is set up to call a function whenever a key is pressed. The function then logs the pressed key into the specified log file.
+The project involves the analysis of a diagnostic dataset containing 30 feature columns and approximately 570 rows. The primary goals are:
+- To identify common characteristics that distinguish benign from malignant cases.
+- To generate heatmap visualizations to identify and eliminate redundant features.
+- To develop a highly accurate machine learning model using the LightGBM algorithm.
 
-## Prerequisites
-Before running the script, make sure to install the required libraries:
+## Algorithms and Models
 
-1. pynput: Used for reading keystrokes.
-   
-2. logging: Used for logging keystrokes into a file.
+The following machine learning algorithms were explored and compared in this project:
+- **Logistic Regression**
+- **Gradient Boosting Algorithm**
+- **Random Forest Algorithm**
+- **XGBoost Algorithm**
+- **LightGBM Algorithm**
 
-## Usage
+## Dataset
 
-1. Run the script:
-   ```
-   python keylogger.py
+The dataset used in this project was collected from the Kaggle repository. It contains diagnostic features of breast cancer cases.
 
-2. Type something on the screen, either by directly inputting text into the terminal or a text editor file or by typing in a textbox within Google Chrome.
+## Methodology
 
-3. The script will start recording keystrokes and logging them into the keylog.txt file.
+1. **Data Preprocessing**: Handling missing values, normalizing data, and feature selection.
+2. **Model Training**: Training various machine learning models on the dataset.
+3. **Model Evaluation**: Comparing the performance of different models based on accuracy, precision, recall, and F1-score.
+4. **Visualization**: Using swarm plots and heatmaps to visualize feature importance and data distribution.
 
-4. To stop the keylogger, manually terminate the script.
+## Results
 
-## Sample Input & Output
+The LightGBM algorithm outperformed other models in terms of accuracy and efficiency. Detailed experimental results and visualizations are provided in the thesis document.
+
+## Conclusion
+
+The project demonstrates that the LightGBM algorithm is an effective tool for breast cancer diagnosis. The model developed in this project can assist in early and accurate diagnosis, thereby improving patient outcomes.
+
+## Future Work
+
+Future work involves exploring other machine learning techniques and larger datasets to further improve the model's accuracy and robustness.
+
+## Acknowledgements
+
+We express our profound gratitude to our thesis supervisor, Mrs. Vedatrayee Chatterjee, and the Head of the Department of Computer Science and Engineering, Dr. Monish Chatterjee, for their guidance and support. We also thank all the teachers of the department and Mr. Suman Mallick for their valuable suggestions and technical assistance.
+
+## Authors
+
+- Arnab Maitra
+- Subhadeep Puitandi
+- Ankita Mukherjee
+- Arijita Roy
 
 ![Screenshot 2024-02-22 001758](https://github.com/arnab-maitra/Keylogger/assets/88264132/1cca1f6d-d64b-4fe9-9b99-736107506358)
 <b><p align="center">Entered sample text in the terminal while the keylogger is active.</p></b>
