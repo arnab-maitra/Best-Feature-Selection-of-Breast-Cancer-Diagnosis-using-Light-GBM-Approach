@@ -45,8 +45,8 @@ Notably, the Light Gradient Boost machine learning technique molds the decision 
  5. Preparing Feature Variables: Columns Unnamed: 32, id, and diagnosis are dropped from the dataset, and the remaining columns are stored 
     in x.
  6. Visualizing the Class Labels:
- - Acountplot is created to visualize the distribution of the diagnosis classes.
- - Thecounts of each class (Benign and Malignant) are printed.
+ - A count plot is created to visualize the distribution of the diagnosis classes.
+ - The counts of each class (Benign and Malignant) are printed.
  7. Plotting of Correlation Heatmap: A heatmap showing the correlation matrix of the features in x is plotted.
  8. Dropping Highly Correlated Features: Highly correlated features are identified and dropped from the dataset to reduce redundancy, 
     resulting in a new DataFrame x_1.
@@ -55,8 +55,8 @@ Notably, the Light Gradient Boost machine learning technique molds the decision 
  - Train-Test Split: The data is split into training and testing sets, with 30% of the data reserved for testing. The random_state ensures 
    reproducibility.
  11. Initializing and Training the Model:
- - ModelInitialization: A Light GBM classifier is initialized.
- - ModelTraining: The model is trained on the training data (x_train and y_train).
+ - Model Initialization: A Light GBM classifier is initialized.
+ - Model Training: The model is trained on the training data (x_train and y_train).
  12. Making Predictions: The trained model is used to predict the class labels for the test set (x_test).
  13. Evaluating the Model:
  - Accuracy Calculation: The accuracy of the model is calculated by comparing the predicted labels (y_pred) with the true labels (y_test).
